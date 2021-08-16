@@ -31,7 +31,9 @@ body {
 /* Card */
 .card {
    background-color: white;
-   padding: 150px;
+   padding: 100px;
+   margin-right: 200px;
+   margin-left: 200px;
 }
 
 /* Footer */
