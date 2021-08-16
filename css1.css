@@ -30,6 +30,7 @@ body {
 
 /* Card */
 .card {
+   margin: auto;
    background-color: white;
    padding: 100px;
    width: 800px;
