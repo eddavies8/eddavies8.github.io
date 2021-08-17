@@ -6,15 +6,21 @@
 }
 
 /*Typography*/
+@font-face {
+   font-family: Pitch;
+   src: url(pitch-regular.woff2);
+}
+
+* {
+   font-family: Pitch;
+}
+
+
 body {
-  font-family: Helvetica;
+  font-family: Pitch;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.4;
-}
-
-body {
-  color: #000000;
 }
 
 h1 {
