@@ -11,39 +11,32 @@
    src: url(pitch-sans-regular.woff2);
 }
 
-* {
-   font-family: Pitch;
-}
-
-
-p {
-  font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
-  font-style: normal;
-  font-variant-ligatures: normal;
-  font-size: 14px;
-  letter-spacing: -0.2px;
+@font-face {
+   font-family: Slack;
+   src: url(slack-light.woff2);
 }
 
 h1 {
   font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
   font-variant-ligatures: normal;
-  font-size: 24px;
+  font-size: 21px;
   letter-spacing: -0.7px;
 }
 
-h2 {
+p {
   font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
   font-variant-ligatures: normal;
-  font-size: 20px;
-  letter-spacing: -0.7px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
 }
 
 
 /* Header/Blog Title */
 .header {
-  padding: 0px;
+  padding: 50px;
   margin-top: 50px;
   text-align: center;
 }
@@ -52,28 +45,28 @@ h2 {
 .centrecolumn {   
   float: centre;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 
 /* Card */
 .card {
    margin: auto;
-   padding: 50px;
    width: 50%;
+   padding-bottom: 60px;
 }
 
 
 /* Break Points */
 @media (max-width: 1100px) {
   .card {
-    width: 100%;
+    width: 80%;
   }
 }
 
 @media (max-width: 700px) {
   .card {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -93,23 +86,22 @@ body {background-color: #f4f4f4;}
 
 /* Day/Night Mode */
 .dark-mode {
-  background-color: black;
+  background-color: #252627;
   color: white;
-}
+} 
 
-/* Button Style
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}  */
+/* Button */
+ .button {
+     line-height: 12px;
+     width: 18px;
+     font-size: 8pt;
+     font-family: tahoma;
+     margin-top: 1px;
+     margin-right: 2px;
+     position:absolute;
+     top:0;
+     right:0;
+ }
 
 /* Footer */
 .footer {
