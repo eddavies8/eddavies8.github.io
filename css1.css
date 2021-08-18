@@ -15,6 +15,15 @@
    font-family: Pitch;
 }
 
+@font-face {
+   font-family: Slack;
+   src: url(Slack-Light.otf);
+}
+
+* {
+   font-family: Pitch;
+}
+
 
 p {
   font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
@@ -25,7 +34,7 @@ p {
 }
 
 h1 {
-  font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Slack", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
   font-variant-ligatures: normal;
   font-size: 24px;
