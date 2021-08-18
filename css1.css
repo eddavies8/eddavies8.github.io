@@ -11,17 +11,9 @@
    src: url(pitch-sans-regular.woff2);
 }
 
-* {
-   font-family: Pitch;
-}
-
 @font-face {
    font-family: Slack;
-   src: url(Slack-Light.woff2);
-}
-
-* {
-   font-family: Pitch;
+   src: url(slack-light.woff2);
 }
 
 
