@@ -20,23 +20,15 @@ p {
   font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
   font-variant-ligatures: normal;
-  font-size: 0.85rem;
+  font-size: 14px;
   letter-spacing: -0.2px;
-}
-
-
-body {
-  font-family: Pitch;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5;
 }
 
 h1 {
   font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
   font-variant-ligatures: normal;
-  font-size: 1.5rem;
+  font-size: 24px;
   letter-spacing: -0.7px;
 }
 
@@ -44,7 +36,7 @@ h2 {
   font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
   font-variant-ligatures: normal;
-  font-size: 1.1rem;
+  font-size: 20px;
   letter-spacing: -0.7px;
 }
 
@@ -103,16 +95,6 @@ body {background-color: #f4f4f4;}
 .dark-mode {
   background-color: black;
   color: white;
-}
-
-/* Scroll to Top */
-{
-  scroll-behavior: smooth;
-}
-
-#section1 {
-  height: 600px;
-  background-color: pink;
 }
 
 /* Footer */
