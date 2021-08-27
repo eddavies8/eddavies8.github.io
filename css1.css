@@ -5,19 +5,20 @@
   box-sizing: border-box;
 }
 
-/*Typography*/
+/*Typography
 @font-face {
-   font-family: Pitch;
+   font-family: Roboto Mono;
    src: url(pitch-sans-regular.woff2);
 }
 
 @font-face {
    font-family: Slack;
    src: url(slack-light.woff2);
-}
+}*/
+
 
 h1 {
-  font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-style: normal;
   font-variant-ligatures: normal;
   font-size: 21px;
@@ -25,7 +26,7 @@ h1 {
 }
 
 p {
-  font-family: "Pitch", "Helvetica Neue", "Arial", sans-serif;
+  font-family: 'Roboto Mono', monospace;  
   font-style: normal;
   font-variant-ligatures: normal;
   font-size: 14px;
