@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-/*Typography
+/*Typography */
+
 @font-face {
    font-family: Roboto Mono;
    src: url(pitch-sans-regular.woff2);
@@ -65,7 +66,7 @@ p {
 /* Break Points */
 @media (max-width: 1100px) {
   .card {
-    width: 60%;
+    width: 80%;
   }
 }
 
