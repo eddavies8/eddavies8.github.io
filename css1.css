@@ -5,11 +5,10 @@
   box-sizing: border-box;
 }
 
-/*Typography */
-
+/*Typography
 @font-face {
-   font-family: pitch sans;
-   src: url(https://github.com/eddavies8/eddavies8.github.io/blob/main/pitch-sans-regular.woff2);
+   font-family: Roboto Mono;
+   src: url(pitch-sans-regular.woff2);
 }
 
 @font-face {
@@ -18,15 +17,15 @@
 }*/
 
 
-h1 {
-  font-family: 'pitch sans, monospace;
+/*h1 {
+  font-family: 'Roboto Mono', monospace;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
   font-variant-ligatures: normal;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 0px;
-}
+}*/
 
 p {
   font-family: 'Roboto Mono', monospace;  
