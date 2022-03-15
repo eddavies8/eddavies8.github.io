@@ -85,6 +85,16 @@ p {
 /* Background Colour */
 body {background-color: #f4f4f4;}
 
+/* Text highlight colour*/
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #E0FF3E;
+}
+
+::selection {
+  color: black;
+  background: #E0FF3E;
+}
 
 /* Day/Night Mode */
 .dark-mode {
