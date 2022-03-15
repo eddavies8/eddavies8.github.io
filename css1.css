@@ -14,7 +14,7 @@
 
 @font-face {
    font-family: Px Grotesk;
-   src: url(px-grotesk-regular.woff2);
+   src: url(px-grotesk-regular.woff2) format('woff2');
 }
 
 
