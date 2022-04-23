@@ -11,10 +11,10 @@ h1 {
   font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 300;
-  line-height: -50px;
+  line-height: 0px;
   font-variant-ligatures: normal;
-  font-size: 155.25px;
-  letter-spacing: -2px;
+  font-size: 200px;
+  letter-spacing: -5px;
 }
 
 p {
@@ -77,6 +77,44 @@ p {
 
 /* Background Colour */
 body {background-color: #f4f4f4;}
+
+/* Links */
+
+/* unvisited link */
+a:link {
+  color: #0400FF;
+}
+
+/* visited link */
+a:visited {
+  color: #0400FF;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0400FF;
+}
+
+/* selected link */
+a:active {
+  color: #0400FF;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 
 /* Text highlight colour*/
 ::-moz-selection { /* Code for Firefox */
